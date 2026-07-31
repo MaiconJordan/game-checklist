@@ -120,14 +120,14 @@ export const platforms = [
     games: [
       { id: 'pc-01', name: "Baldur's Gate 3", cover: 'baldurs-gate-3.jpg' },
       { id: 'pc-02', name: "Portal 2", cover: 'portal-2.jpg' },
-      { id: 'pc-03', name: "Black Myth: Wukong", cover: 'black-myth-wukong.jpg' },
+      { id: 'pc-03', name: "Black Myth: Wukong", cover: 'black-myth-wukong.webp' },
       { id: 'pc-04', name: "Outer Wilds", cover: 'outer-wilds.jpg' },
       { id: 'pc-05', name: "Subnautica", cover: 'subnautica.jpg' },
       { id: 'pc-06', name: "Stray", cover: 'stray.jpg' },
       { id: 'pc-07', name: "Tunic", cover: 'tunic.jpg' },
       { id: 'pc-08', name: "It Takes Two", cover: 'it-takes-two.jpg' },
       { id: 'pc-09', name: "Sea of Stars", cover: 'sea-of-stars.jpg' },
-      { id: 'pc-10', name: "Dave the Diver", cover: 'dave-the-diver.jpg' },
+      { id: 'pc-10', name: "Dave the Diver", cover: 'dave-the-diver.webp' },
     ]
   },
   {
