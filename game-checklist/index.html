@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎮 Game Checklist — Catálogo por Plataforma</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <!-- Camadas de fundo animado (crossfade entre gradientes das plataformas) -->
+  <div id="bg-layer-a" class="bg-layer"></div>
+  <div id="bg-layer-b" class="bg-layer"></div>
+  <div class="bg-noise"></div>
+
+  <!-- Header fixo -->
+  <header class="top-bar">
+    <div class="brand">
+      <span class="brand-icon">🎮</span>
+      <span class="brand-text">Game Checklist</span>
+    </div>
+
+    <div class="search-wrapper">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" class="search-input" placeholder="Pesquisar jogo..." />
+    </div>
+
+    <div class="header-actions">
+      <div class="mini-stat" title="Progresso geral">
+        <span data-stat="percent">0%</span>
+      </div>
+      <button id="themeToggle" class="icon-btn" title="Alternar tema">☀️</button>
+    </div>
+  </header>
+
+  <!-- Navegação por bolinhas (dot nav) lateral -->
+  <nav class="dot-nav" id="dotNav" aria-label="Navegação por plataforma"></nav>
+
+  <main id="app">
+
+    <!-- DASHBOARD -->
+    <section class="dashboard-section" id="dashboard" data-platform="dashboard">
+      <div class="dashboard-content">
+        <h1 class="dashboard-title">
+          Sua jornada <span class="highlight">retro & atual</span> em um só lugar
+        </h1>
+        <p class="dashboard-subtitle">
+          Role a página para navegar entre as plataformas. Marque os jogos que você já zerou
+          e acompanhe seu progresso em tempo real.
+        </p>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-icon">📚</span>
+            <span class="stat-value" data-stat="total">0</span>
+            <span class="stat-label">Jogos no catálogo</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">✅</span>
+            <span class="stat-value" data-stat="completed">0</span>
+            <span class="stat-label">Completados</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">📊</span>
+            <span class="stat-value" data-stat="percent">0%</span>
+            <span class="stat-label">Progresso geral</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-icon">⭐</span>
+            <span class="stat-value" data-stat="favorites">0</span>
+            <span class="stat-label">Favoritos</span>
+          </div>
+        </div>
+
+        <div class="hero-progress-bar">
+          <div class="hero-progress-fill" data-hero-progress-fill></div>
+        </div>
+
+        <p class="dashboard-hint">↓ Role para explorar as plataformas ↓</p>
+
+        <div class="platform-chips" id="platformChips"></div>
+      </div>
+    </section>
+
+    <!-- Seções das plataformas são injetadas aqui via JS -->
+    <div id="platformsContainer"></div>
+
+  </main>
+
+  <button id="scrollTopBtn" class="scroll-top" title="Voltar ao topo">↑</button>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
