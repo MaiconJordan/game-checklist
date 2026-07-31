@@ -61,7 +61,7 @@ export const platforms = [
       { id: 'nds-05', name: "Monster Tale", cover: 'monster-tale.jpg' },
     ]
   },
-  {
+   {
     id: 'ps4',
     name: 'PlayStation 4 (PS4)',
     shortName: 'PS4',
@@ -81,13 +81,12 @@ export const platforms = [
       { id: 'ps4-10', name: "Shadow of the Colossus (Remake)", cover: 'shadow-of-the-colossus-remake.jpg' },
       { id: 'ps4-11', name: "Resident Evil 2 (Remake)", cover: 'resident-evil-2-remake.jpg' },
       { id: 'ps4-12', name: "Monster Hunter: World", cover: 'monster-hunter-world.jpg' },
-      { id: 'ps4-13', name: "Hollow Knight", cover: 'hollow-knight.jpg' },
-      { id: 'ps4-14', name: "Death Stranding", cover: 'death-stranding.jpg' },
+      { id: 'ps4-13', name: "Hollow Knight", cover: 'hollow-knight.webp' },
+      { id: 'ps4-14', name: "Death Stranding", cover: 'death-stranding.webp' },
       { id: 'ps4-15', name: "Grand Theft Auto V", cover: 'grand-theft-auto-v.jpg' },
       { id: 'ps4-16', name: "NieR: Automata", cover: 'nier-automata.jpg' },
-      { id: 'ps4-17', name: "Persona 5 Royal", cover: 'persona-5-royal.jpg' },
-      { id: 'ps4-18', name: "Control", cover: 'control.jpg' },
-      { id: 'ps4-19', name: "Star Wars Jedi: Fallen Order", cover: 'star-wars-jedi-fallen-order.jpg' },
+      { id: 'ps4-18', name: "Control", cover: 'control.webp' },
+      { id: 'ps4-19', name: "Star Wars Jedi: Fallen Order", cover: 'star-wars-jedi-fallen-order.png' },
       { id: 'ps4-20', name: "Tomb Raider: Definitive Edition", cover: 'tomb-raider-definitive-edition.jpg' },
     ]
   },
@@ -103,12 +102,12 @@ export const platforms = [
       { id: 'xbox-02', name: "Starfield", cover: 'starfield.jpg' },
       { id: 'xbox-03', name: "Alan Wake 2", cover: 'alan-wake-2.jpg' },
       { id: 'xbox-04', name: "Cyberpunk 2077: Phantom Liberty", cover: 'cyberpunk-2077-phantom-liberty.jpg' },
-      { id: 'xbox-05', name: "Assassin's Creed Valhalla", cover: 'assassins-creed-valhalla.jpg' },
+      { id: 'xbox-05', name: "Assassin's Creed Oydssey", cover: 'assassins-creed-odyssey.jpg' },
       { id: 'xbox-06', name: "Psychonauts 2", cover: 'psychonauts-2.jpg' },
       { id: 'xbox-07', name: "Ori and the Will of the Wisps", cover: 'ori-and-the-will-of-the-wisps.jpg' },
       { id: 'xbox-08', name: "Immortals Fenyx Rising", cover: 'immortals-fenyx-rising.jpg' },
       { id: 'xbox-09', name: "A Plague Tale: Requiem", cover: 'a-plague-tale-requiem.jpg' },
-      { id: 'xbox-10', name: "Sea of Thieves", cover: 'sea-of-thieves.jpg' },
+      { id: 'xbox-10', name: "Dead Ceels", cover: 'dead-ceels.jpg' },
     ]
   },
   {
@@ -145,7 +144,7 @@ export const platforms = [
       { id: 'switch-04', name: "Metroid Dread", cover: 'metroid-dread.jpg' },
       { id: 'switch-05', name: "Luigi's Mansion 3", cover: 'luigis-mansion-3.jpg' },
       { id: 'switch-06', name: "The Legend of Zelda: Breath of the Wild", cover: 'the-legend-of-zelda-breath-of-the-wild.jpg' },
-      { id: 'switch-07', name: "Mario Kart 8 Deluxe", cover: 'mario-kart-8-deluxe.jpg' },
+      { id: 'switch-07', name: "Super Mario 3D World + Bowsers Fury", cover: 'super-mario-3d-world.png' },
     ]
   },
 ];
