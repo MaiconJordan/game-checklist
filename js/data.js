@@ -61,7 +61,7 @@ export const platforms = [
       { id: 'nds-05', name: "Monster Tale", cover: 'monster-tale.jpg' },
     ]
   },
-   {
+  {
     id: 'ps4',
     name: 'PlayStation 4 (PS4)',
     shortName: 'PS4',
@@ -81,11 +81,11 @@ export const platforms = [
       { id: 'ps4-10', name: "Shadow of the Colossus (Remake)", cover: 'shadow-of-the-colossus-remake.jpg' },
       { id: 'ps4-11', name: "Resident Evil 2 (Remake)", cover: 'resident-evil-2-remake.jpg' },
       { id: 'ps4-12', name: "Monster Hunter: World", cover: 'monster-hunter-world.jpg' },
-      { id: 'ps4-13', name: "Hollow Knight", cover: 'hollow-knight.webp' },
+      { id: 'ps4-13', name: "Hollow Knight", cover: 'hollow-knight.png' },
       { id: 'ps4-14', name: "Death Stranding", cover: 'death-stranding.webp' },
       { id: 'ps4-15', name: "Grand Theft Auto V", cover: 'grand-theft-auto-v.jpg' },
       { id: 'ps4-16', name: "NieR: Automata", cover: 'nier-automata.jpg' },
-      { id: 'ps4-18', name: "Control", cover: 'control.webp' },
+      { id: 'ps4-18', name: "Control", cover: 'control.png' },
       { id: 'ps4-19', name: "Star Wars Jedi: Fallen Order", cover: 'star-wars-jedi-fallen-order.png' },
       { id: 'ps4-20', name: "Tomb Raider: Definitive Edition", cover: 'tomb-raider-definitive-edition.jpg' },
     ]
@@ -120,7 +120,7 @@ export const platforms = [
     games: [
       { id: 'pc-01', name: "Baldur's Gate 3", cover: 'baldurs-gate-3.jpg' },
       { id: 'pc-02', name: "Portal 2", cover: 'portal-2.jpg' },
-      { id: 'pc-03', name: "Black Myth: Wukong", cover: 'black-myth-wukong.webp' },
+      { id: 'pc-03', name: "Black Myth: Wukong", cover: 'black-myth-wukong.png' },
       { id: 'pc-04', name: "Outer Wilds", cover: 'outer-wilds.jpg' },
       { id: 'pc-05', name: "Subnautica", cover: 'subnautica.jpg' },
       { id: 'pc-06', name: "Stray", cover: 'stray.jpg' },
